@@ -1,0 +1,33 @@
+int buttonPin = 3;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(3, OUTPUT); //Sets the digital pin 13 as output (we use the 3.3 v)
+}
+
+void loop() {
+  digitalWrite(3, HIGH);
+  delay(1000);
+  digitalWrite(3,LOW);
+  delay(1000);
+   digitalWrite(3, HIGH);
+  delay(1000);
+  digitalWrite(3,LOW);
+  delay(1000);
+   digitalWrite(3, HIGH);
+  delay(1000);
+  digitalWrite(3,LOW);
+  delay(1000);
+   digitalWrite(3, HIGH);
+  delay(1000);
+  digitalWrite(3,LOW);
+  delay(3000);
+   digitalWrite(3, HIGH);
+  delay(1000);
+  digitalWrite(3,LOW);
+  delay(1000);
+   digitalWrite(3, HIGH);
+  delay(1000);
+  digitalWrite(3,LOW);
+  delay(1000);
+}
